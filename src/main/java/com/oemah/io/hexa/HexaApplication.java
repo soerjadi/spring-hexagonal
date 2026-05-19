@@ -1,12 +1,12 @@
-package com.oemah.io.record;
+package com.oemah.io.hexa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RecordApplication {
+public class HexaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RecordApplication.class, args);
+        SpringApplication.run(HexaApplication.class, args);
     }
 }

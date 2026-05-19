@@ -1,10 +1,10 @@
-package com.oemah.io.record;
+package com.oemah.io.hexa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RecordApplicationTests {
+class HexaApplicationTests {
 
     @Test
     void contextLoads() {

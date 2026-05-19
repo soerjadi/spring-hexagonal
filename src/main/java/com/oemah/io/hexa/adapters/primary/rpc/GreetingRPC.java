@@ -1,9 +1,10 @@
-package com.oemah.io.record.adapters.primary.rpc;
+package com.oemah.io.hexa.adapters.primary.rpc;
 
 import org.springframework.grpc.server.service.GrpcService;
-import com.oemah.io.record.ports.adapters.primary.rpc.GreetingInterfaces;
-import com.oemah.io.record.proto.*;
-import com.oemah.io.record.proto.GreetingServiceGrpc;
+
+import com.oemah.io.hexa.ports.adapters.primary.rpc.GreetingInterfaces;
+import com.oemah.io.hexa.proto.*;
+import com.oemah.io.hexa.proto.GreetingServiceGrpc;
 import io.grpc.stub.StreamObserver;
 
 @GrpcService

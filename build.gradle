@@ -7,7 +7,7 @@ plugins {
 
 group = 'com.oemah.io'
 version = '0.0.1-SNAPSHOT'
-description = 'record'
+description = 'hexa'
 
 java {
     toolchain {

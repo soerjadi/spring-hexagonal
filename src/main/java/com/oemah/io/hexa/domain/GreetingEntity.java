@@ -1,3 +1,3 @@
-package com.oemah.io.record.domain;
+package com.oemah.io.hexa.domain;
 
 public record GreetingEntity(String content) {}

@@ -1,6 +1,6 @@
-package com.oemah.io.record.ports.adapters.primary.rpc;
+package com.oemah.io.hexa.ports.adapters.primary.rpc;
 
-import com.oemah.io.record.proto.*;
+import com.oemah.io.hexa.proto.*;
 
 import io.grpc.stub.StreamObserver;
 
