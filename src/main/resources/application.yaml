@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: record
+
+  grpc:
+    server:
+      port: 50051
+      keep-alive:
+        time: 30s
+        timeout: 5s
+        permit-without-calls: true
+
+      # enable-keep-alive: true       # Keep connections alive for better performance
+      # keep-alive-time: 30s          # Send keep-alive pings every 30 seconds
+      # keep-alive-timeout: 5s        # Wait 5 seconds for ping response
+      # permit-keep-alive-without-calls: true  # 
+
+server:
+  port: 8081
+

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "com.oemah.io.record.proto";
+option java_multiple_files = true;
+
+package greeting;
+
+import "google/protobuf/empty.proto";
+
+service GreetingService {
+    rpc Greeting(google.protobuf.Empty) returns (GreetingResponse);
+}
+
+message GreetingResponse {
+    string content = 1;
+}
